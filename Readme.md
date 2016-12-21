@@ -22,9 +22,12 @@ Options
 -------
 the object takes three **REQUIRED** keys as by express-session's store requirement.
 
-- `get`: a function that calls apis to get session from store. It will be called as get({key:sid})
-- `set` a function that calls apis to set session from store. It will be called as set({key:sid, value:session, expireTime:expiration})
-- `destroy` a function that calls apis to delete certain key from session. It will be called as destroy({key:sid})
+- `get`: a function that calls apis to get session from store.
+  It will be called as get({ key:sid }), and it should resolve with the session from store.
+- `set` a function that calls apis to set session in store.
+  It will be called as set({ key:sid, value:session, expireTime:expiration }), and it should resolve with something truthy.
+- `destroy` a function that calls apis to delete certain key from session.
+  It will be called as destroy({key:sid}), and it should resolve with something truthy.
 
 **NOTICE** that these functions should always return a Promise object.
 
