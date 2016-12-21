@@ -1,0 +1,20 @@
+{
+  "name": "connect-restful",
+  "version": "1.0.0",
+  "description": "a session store backed by express-session that support restful api call",
+  "main": "./index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisHchen/connect-restful.git"
+  },
+  "keywords": [
+    "express-session",
+    "restful",
+    "api"
+  ],
+  "author": "chrisHchen",
+  "license": "MIT"
+}
