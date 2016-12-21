@@ -7,6 +7,7 @@ npm install connect-restful express-session
 ```
 example
 
+
 ```js
 const session = require('express-session')
 const restfulStore = require('connect-restful')(session)
