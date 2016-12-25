@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/connect-restful.svg)](https://npmjs.com/package/connect-restful)
+
 **connect-restful** is a session store supported by [express-session](https://github.com/expressjs/session), to implement restful api call on any compatible session stores.
 
 Setup
