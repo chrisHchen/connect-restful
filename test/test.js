@@ -128,7 +128,7 @@ describe('Store:', function(){
       set:set,
       destroy:destroy
     })
-
+    
     P.promisifyAll(r)
     const sid = generateSessionId()
     return r.setAsync( sid, { cookie: { maxAge: 2000 }, name: 'chenqh' })
