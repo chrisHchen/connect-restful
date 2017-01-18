@@ -1,6 +1,6 @@
 {
   "name": "connect-restful",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a session store backed by express-session that support restful api call",
   "main": "./index.js",
   "scripts": {
